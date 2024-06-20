@@ -15,6 +15,7 @@ import { JwtModule } from '@nestjs/jwt';
     BookmarkModule,
     PrismaModule,
     JwtModule,
+    UserModule,
     ConfigModule.forRoot({ isGlobal: true }),
   ],
   controllers: [AuthController],
